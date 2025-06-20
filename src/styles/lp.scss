@@ -1,0 +1,96 @@
+.Faixa-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+  height: 100vh;
+  background: linear-gradient(
+      180deg,
+      rgba(28, 228, 143, 0) 50%,
+      rgba(129, 229, 187, 0) 75%,
+      #e6e6e6 100%
+    ),
+     linear-gradient(180deg, #1ce48f 0%, #e6e6e6 100%);
+
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5em;
+    text-align: center;
+
+    background: linear-gradient(90deg, #1ce48f 0%, #0f7e4f 100%);
+    webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  p {
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+
+    color: #202020;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+  }
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+}
+.Faixa-2 {
+  height: 100vh;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #202020;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    span {
+      background: linear-gradient(90deg, #202020 17.58%, #1ce48f 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+  button {
+    flex-direction: row;
+    padding: 1em 1.5em;
+    background: rgba(204, 204, 204, 0.25);
+    border: 2px solid #cccccc;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background: rgba(28, 228, 143, 0.25);
+        border: 2px solid #1ce48f;
+        transform: scale(1.05);
+    }
+  }
+}
+.mySwiper{
+    
+}
