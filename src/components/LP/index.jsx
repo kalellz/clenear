@@ -9,7 +9,7 @@ export default function LandingPage() {
     <main>
       <div className="whatsapp-button-container">
         <a
-          href="https://wa.me/5511952443450" // <-- coloque seu número aqui no formato internacional
+          href="https://wa.me/552732280140" // <-- coloque seu número aqui no formato internacional
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-button"
