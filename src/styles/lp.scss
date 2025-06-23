@@ -1,4 +1,4 @@
-.whatsapp-button-container{
+.whatsapp-button-container {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -22,7 +22,6 @@
   &:hover {
     transform: scale(1.05);
   }
-
 }
 .Faixa-1 {
   display: flex;
@@ -129,8 +128,8 @@
     gap: 5em 10%;
   }
 }
-.pic3{
+.pic3 {
   width: 100%;
   height: 100%;
-  object-fit: cover;  
+  object-fit: cover;
 }
