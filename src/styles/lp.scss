@@ -1,3 +1,29 @@
+.whatsapp-button-container{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  img {
+    width: 30px;
+    height: 30px;
+    user-select: none;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+}
 .Faixa-1 {
   display: flex;
   justify-content: center;
